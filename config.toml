@@ -1,0 +1,78 @@
+baseurl      = "https://goshawk22.uk"
+title        = "My Blog"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+paginate     = 10
+
+enableRobotsTXT = true
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "I'm a Custom ROM Maintainer for Realme 5 Pro and sometimes write random stuff in python."
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Metadata mostly used in document's head
+  description = ""
+  keywords = "goshawk22, homepage, blog"
+  images = [""]
+
+  [params.favicon.color]
+    mask = "#252627"
+    msapplication = "#252627"
+    theme = "#252627"
+
+  [params.portrait]
+    path     = "/img/avatar.png"
+    alt      = "Avatar"
+    maxWidth = "50px"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:dev.goshawk22.uk"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/goshawk22"
+
+  [[params.social]]
+    name = "telegram"
+    url  = "https://t.me/goshawk22"
+
+[taxonomies]
+    category = "categories"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Adam Lawson"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoMark = ">"
+      logoText = "goshawk22"
+      logoHomeLink = "/"
+      # Disable distracting animation
+      logoCursorDisabled = true
+
+[menu]
+  [[menu.main]]
+    identifier = "downloads"
+    name       = "Downloads"
+    url        = "/files"
+
+
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+
