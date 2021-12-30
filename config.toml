@@ -35,7 +35,7 @@ enableRobotsTXT = true
 
   [[params.social]]
     name = "email"
-    url  = "mailto:dev.goshawk22.uk"
+    url  = "mailto:dev@goshawk22.uk"
 
   [[params.social]]
     name = "github"
