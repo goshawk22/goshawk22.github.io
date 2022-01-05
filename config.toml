@@ -45,6 +45,10 @@ enableRobotsTXT = true
     name = "telegram"
     url  = "https://t.me/goshawk22"
 
+  [[params.social]]
+    name = "instagram"
+    url  = "https://www.instagram.com/adamjlawson22"
+
 [taxonomies]
     category = "categories"
     tag      = "tags"
