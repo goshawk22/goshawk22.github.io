@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Adam Lawson</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Adam Lawson</description>
+    <image>
+      <title>Adam Lawson</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Adam Lawson</copyright>
+    <lastBuildDate>Thu, 14 Aug 2025 16:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pico-7</title>
+      <link>http://localhost:1313/posts/pico-7/</link>
+      <pubDate>Thu, 14 Aug 2025 16:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pico-7/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Pico 7 was the second flight of the new tracker and included many of the improvements mentioned in the last post. We also used a 20F 3.8V supercap on VIN.
+We also used the same balloon but with a lower free lift at 2g.&lt;/p&gt;
+&lt;h2 id=&#34;launch-day&#34;&gt;Launch day&lt;/h2&gt;
+&lt;p&gt;The launch day had significant cloud cover again, but it was bright enough to transmit all the way up.&lt;/p&gt;
+&lt;p&gt;The ascent went smoothly until it reached 7,300m when it started to descend. This was likely due to icing. Luckily it started to rise again at 2,500m and didn&amp;rsquo;t reach the ground. It went dark before reaching float but it woke up the following morning at a float altitude of 11.5km based on the pressure. As it was already over Ukraine there was significant GPS spoofing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pico-6: New Tracker Maiden Flight</title>
+      <link>http://localhost:1313/posts/pico-6/</link>
+      <pubDate>Thu, 14 Aug 2025 11:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pico-6/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Pico 6 was the maiden flight of the new tracker.&lt;/p&gt;
+&lt;h2 id=&#34;new-tracker&#34;&gt;New Tracker&lt;/h2&gt;
+&lt;p&gt;It&amp;rsquo;s based around the STM32G071GB mcu and uses the same SI5351 clock generator and ATGM336H GPS common to other trackers such as Traquito and AG6NS. It uses the RT6150A buck boost converter to allow the tracker to be powered from as low as 1.8v. It also features mounting points to allow us to attach 2 panels to either side of the board. It also has a LPS22HB pressure sensor, which we plan to use with extended telemetry. Overall, this should allow for a lower power consumption, lighter payload and more data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pico-5</title>
+      <link>http://localhost:1313/posts/pico-5/</link>
+      <pubDate>Wed, 16 Apr 2025 18:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pico-5/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Map&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/pico-5/pico-5-map.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;We used the same tracker as before but added a lithium supercapacitor in parallel with the solar cells. Initial testing showed that the tracker could complete roughly 1 transmission cycle (10 minutes) when powered by the supercapacitor with the panels in shadow. This should improve the reliability of the power supply to the tracker. We used the same pannel configuration as last time.&lt;/p&gt;
+&lt;p&gt;We decided to use two Qualatex 36&amp;quot; balloons instead of one in an attempt to reduce the pressure in each balloon (the lift for the payload is split between the two balloons). In order to reduce the risk of static buildup we attached the balloons using a length of nylon wire so one floated above the other.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pico-4</title>
+      <link>http://localhost:1313/posts/pico-4/</link>
+      <pubDate>Wed, 16 Apr 2025 17:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pico-4/</guid>
+      <description>&lt;p&gt;We used a Raspberry Pi Pico based WSPR tracker. It was powered by a 6 cell solar setup. We decided to use 10m WSPR due to the relative ease of managing the shorter antenna (compared to 20m) and good propagation during the day.&lt;/p&gt;
+&lt;p&gt;We tested the setup by hanging it out of a window and managed to get a single spot roughly 15km away. Not great performance but at least we know it works.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pico-3</title>
+      <link>http://localhost:1313/posts/pico-3/</link>
+      <pubDate>Wed, 08 Jan 2025 20:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pico-3/</guid>
+      <description>&lt;p&gt;We used a new custom tracker design based around the Wio-E5 STM32WL (very similar to the RAK3172) module and Quectel L80R GPS module. It had a tx interval of 5 minutes and a spreading factor of SF10 was used. It was powered using a 500mAh battery taken from a disposable vape. The whole system weighed 23g, which probably ended up being 25g after all the tape and string we added.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pico-2</title>
+      <link>http://localhost:1313/posts/pico-2/</link>
+      <pubDate>Fri, 20 Dec 2024 17:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pico-2/</guid>
+      <description>&lt;p&gt;We reused a left-over board we had from Pico-1. It&amp;rsquo;s good to keep documentation. We learnt that the hard way.
+Once we finally figured out what we did last time and where the latest version of the code was, we tested it overnight in the garden.
+It worked. We used a 550mAh battery from another disposable vape.&lt;/p&gt;
+&lt;p&gt;We decided to launch on the 19/12/24 as the conditions looked favourable for a southerly flight.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello!</title>
+      <link>http://localhost:1313/posts/hello/</link>
+      <pubDate>Thu, 19 Dec 2024 21:45:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hello/</guid>
+      <description>&lt;p&gt;Hello&lt;/p&gt;
+&lt;p&gt;This post will fill in a bit of background when it comes to the balloon projects I have been involved in. HAB 2 onwards are with &lt;a href=&#34;https://github.com/Sheep2259/&#34;&gt;Isaac&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;hab-1&#34;&gt;HAB 1&lt;/h3&gt;
+&lt;p&gt;The first project was a fairly typical high altitude balloon project. 200g balloon, Raspberry Pi Zero and Camera, a &lt;a href=&#34;https://stuartsprojects.github.io/&#34;&gt;LoRaTracker&lt;/a&gt; gps tracker (thanks Stuart for all those amazing resources!), a polystyrene box and a parachute. Not exactly cheap.&lt;/p&gt;
+&lt;p&gt;Main problem was getting it back again. Turns out balloons can travel quite far and, when you live with Gatwick and Heathrow to the north and the sea to the south, there aren&amp;rsquo;t a lot of days where you&amp;rsquo;ll be able to launch.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
