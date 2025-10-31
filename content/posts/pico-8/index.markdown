@@ -30,6 +30,12 @@ We could quickly eliminate the first difference as the cause since we knew the p
 
 Luckily, three days later, as we prepared to launch another balloon, we noticed that the tracker had woken up and was floating over Kyrgyzstan. It's unclear why it worked some days and not others, but if it did manage to start up, it continued to operate throughout the day.
 
+After reaching an initial float altitude of around 11,900m, the balloon slowly stretched and reached a peak altitude of 12,840 a week into the flight. The altitude then slowly dropped until it reached around 12,000m. It's still unclear to use how the loss of altitude occurs: 
+- loss of helium should slightly increase altitude until it has negative free lift, at which point the balloon descends
+- vertical motion in the atmosphere and variations in pressure seem unlikely to produce these long term trends
+
+A plausible explanation is that the balloon gains mass, either to the tracker or diffusion of atmospheric air into the balloon, although it's unclear how this would happen.
+
 ## Circumnavigation and new records
 On 03/09/2025, the balloon completed its first lap of the world. Unfortunately, it didn't start up that day, or the next. Or the day after that. It wasn't until 6 days later that we were able to confirm the circumnavigation. The balloon continued to float for a total of 24 days and 45049km before disappearing off the Russian-Pacific coast.
 
