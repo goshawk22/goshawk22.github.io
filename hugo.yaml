@@ -36,7 +36,7 @@ languages:
         url: search/
         weight: 10
       - name: Balloon Tracking
-        url: https://adamlawson.uk/balloon-dashboard/
+        url: https://adamlawson.uk/balloons/
 
 outputs:
   home:
