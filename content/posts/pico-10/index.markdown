@@ -47,3 +47,7 @@ While this balloon was very successful when it came to float duration and tracke
 
 To combat this issue, we are designing a new solar system that uses angled solar panels. This should allow the tracker to start up with solar angles as low as 1-2°.
 We're currently waiting for the new PCBs to be delivered and hope to launch the first one in December.
+
+## Update 03/11/25
+
+After 9 days of silence, the balloon reappeared in Eastern Russia. Unfortunately, predictions show it will drift north again.
